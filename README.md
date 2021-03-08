@@ -13,3 +13,4 @@ fiz a mesma coisa com mysql porem nao postei por aqui ainda quem sabe num futuro
 
 * Aprender documentação de API
 * Usar autenticação como JWT.
+5
