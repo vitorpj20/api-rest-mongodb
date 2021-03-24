@@ -25,4 +25,4 @@ app.get("/",(req,res)=>{
 //DB
 mongoose.connect(process.env.DB_CONNECTION,{useNewUrlParser:true,useUnifiedTopology:true},()=>{console.log("Conectado no DB")})
 //Port
-app.listen(3000)
+app.listen(3003)
