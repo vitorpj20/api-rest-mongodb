@@ -20,10 +20,8 @@ app.get("/",(req,res)=>{
     res.send("We are on home")
 })
 
-const Port = process.env.Port || 3003
-
 //DB
 mongoose.connect(process.env.DB_CONNECTION,{useNewUrlParser:true,useUnifiedTopology:true},()=>{console.log("Conectado no DB")})
 
 //Port
-app.listen(Port)
+app.listen(process.env.PORT || 3003)
